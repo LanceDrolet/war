@@ -1,0 +1,18 @@
+{
+  "name": "war",
+  "version": "0.0.1",
+  "description": "Demo \"war\" card game.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Lance Drolet",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-istanbul": "^4.1.6",
+    "nyc": "^12.0.2"
+  }
+}
